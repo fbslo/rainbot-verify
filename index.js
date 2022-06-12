@@ -4,6 +4,7 @@ function load(){
   });
 
   document.getElementById("user_id").value = params.id
+  document.getElementById("address").value = params.address
 }
 
 let accounts;
