@@ -32,7 +32,7 @@ async function sign(){
     if (err) alert(err)
     else {
       document.getElementById("result").innerHTML = "Signature: <code>" + result.result + "</code>"
-      document.getElementById("message").innerHTML = "/verify " + from + " " + result.result
+      document.getElementById("message").innerHTML = "/register " + from + " " + result.result
     }
   })
 }
