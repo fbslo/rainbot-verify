@@ -29,7 +29,7 @@ async function sign(){
     from,
   },
   function (err, result) {
-    if (err) alert(err)
+    if (err) alert(JSON.stringify(err))
     else {
       document.getElementById("result").innerHTML = "Signature: <code>" + result.result + "</code>"
       document.getElementById("message").innerHTML = "/register " + from + " " + result.result
