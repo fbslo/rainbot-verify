@@ -1,5 +1,6 @@
 Registration:
 
+- user requests registration link from the rainbot using /registration_help command. They receive link in this format: https://fbslo.github.io/rainbot-verify/?id=1075644908&address=0x9C1915f821912f5BbcbBD07EF92CEe9cF28068d4
 - user signs a message using `personal_sign` method. Signed data should be `telegramUserId-0xuseraddressLowerCase`.
 - user sends this message to rainbot using a command: /register 0xuseraddress 0xsignature
 
