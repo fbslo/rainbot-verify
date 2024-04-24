@@ -1,6 +1,6 @@
 Registration:
 
-- user signs a message using `personal_sign` method. Signed data should be `userId-0xuseraddressLowerCase`.
+- user signs a message using `personal_sign` method. Signed data should be `telegramUserId-0xuseraddressLowerCase`.
 - user sends this message to rainbot using a command: /register 0xuseraddress 0xsignature
 
 Deposit:
